@@ -18,7 +18,7 @@ client.on('message', message => {
   client.user.setActivity(argresult, {type:'WATCHING'});
       message.channel.send(`:incoming_envelope: By 1   ${argresult}**`)
   } else 
-  if (message.content.startsWith(adminprefix + 'Is')) {
+  if (message.content.startsWith(adminprefix + 'Ls')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
       message.channel.send(`:incoming_envelope: By 1   ${argresult}**`)
   } else 
