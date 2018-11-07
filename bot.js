@@ -9,22 +9,22 @@ client.on('message', message => {
       
   if (message.content.startsWith(adminprefix + 'pl')) {
     client.user.setGame(argresult);
-      message.channel.send(`:incoming_envelope: By 1   ${argresult}**`)
+      message.channel.send(`:envelope: By Ayman   ${argresult}**`)
   } else 
      if (message.content === (adminprefix + "leave")) {
     message.guild.leave();        
   } else  
   if (message.content.startsWith(adminprefix + 'wt')) {
   client.user.setActivity(argresult, {type:'WATCHING'});
-      message.channel.send(`:incoming_envelope: By 1   ${argresult}**`)
+      message.channel.send(`:envelope: By Ayman   ${argresult}**`)
   } else 
   if (message.content.startsWith(adminprefix + 'Ls')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
-      message.channel.send(`:incoming_envelope: By 1   ${argresult}**`)
+      message.channel.send(`:envelope: By Ayman   ${argresult}**`)
   } else 
   if (message.content.startsWith(adminprefix + 'st')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/One");
-      message.channel.send(`**?**`)
+    client.user.setGame(argresult, "https://www.twitch.tv/Ayman");
+      message.channel.send(`:envelope: By Ayman`)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
   client.user.setUsername(argresult).then
